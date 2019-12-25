@@ -30,7 +30,7 @@ about me:
 
 最后一个问题很有意思，写一下我的做法
 
-维护一个排好序的链表
+维护一个排好序的双向链表
 
 分$\sqrt n$块，第$i$块维护的左右端点为$l_i,r_i(r_i-l_i=\sqrt n)$，记录排名为$l_i$和$r_i$的位置$p_l,p_r$
 
@@ -39,6 +39,14 @@ about me:
 注意边界即可
 
 ###### 普通、树上、带修、不删除、二维、二次离线莫队
+
+[洛谷P3245](https://www.luogu.com.cn/problem/P3245)
+
+[洛谷P4396](https://www.luogu.com.cn/problem/P4396)
+
+[CF617E](http://codeforces.com/contest/617/problem/E)
+
+[洛谷P4074](https://www.luogu.com.cn/problem/P4074)
 
 ###### 复杂的分块问题(特指$\text{Ynoi}$)
 
