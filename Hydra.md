@@ -52,6 +52,12 @@ about me:
 
 ###### 点分治、边分治、链分治、$\text{LCT}$、静态$\text{LCT}$、静态$\text{top tree}$
 
+[洛谷P2634](https://www.luogu.com.cn/problem/P2634)
+
+[洛谷P2056](https://www.luogu.com.cn/problem/P2056),[洛谷P4115](https://www.luogu.com.cn/problem/P4115),[洛谷SP2666](https://www.luogu.com.cn/problem/SP2666)(喜闻乐见的三倍经验qwq)
+
+[bzoj3730](https://lydsy.com/JudgeOnline/problem.php?id=3730)(写了个splay，卡常卡了一下午还没过……)
+
 ## $\color{blue}\text{The second month}$
 
 ### $数学相关$
