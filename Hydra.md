@@ -50,13 +50,29 @@ about me:
 
 ###### 复杂的分块问题(特指$\text{Ynoi}$)
 
-###### 点分治、边分治、链分治、$\text{LCT}$、静态$\text{LCT}$、静态$\text{top tree}$
+###### 点分治、链分治、$\text{LCT}$、静态$\text{LCT}$、静态$\text{top tree}$
 
 [洛谷P2634](https://www.luogu.com.cn/problem/P2634)
 
 [洛谷P2056](https://www.luogu.com.cn/problem/P2056),[洛谷P4115](https://www.luogu.com.cn/problem/P4115),[洛谷SP2666](https://www.luogu.com.cn/problem/SP2666)(喜闻乐见的三倍经验qwq)
 
-[bzoj3730](https://lydsy.com/JudgeOnline/problem.php?id=3730)(写了个splay，卡常卡了一下午还没过……)
+[bzoj3730](https://lydsy.com/JudgeOnline/problem.php?id=3730)
+
+这道傻逼题卡了我好几天(其实主要原因是参加合格考qwq)，写一下吧
+
+要求距离节点$x$不超过$k$的权值和
+
+很容易想到动态点分治，在分治中心使用两个数据结构分别维护距离分治中心和分治中心的父亲距离不超过$i$的节点的权值和
+
+一开始我想用动态开点线段树做，但这样做空间复杂度是$O(n\log ^2n)$的，好像不太行
+
+于是我用$\text{Splay}$维护，空间复杂度$O(n\log n)$，时间$O(n\log ^2 n)$。但是可能是因为代码写丑了，死活过不去
+
+但是！在我回教室的路上，我突然想到，每个线段树的值域只需要开到**距分治中心最远点的深度**就可以了，空间其实可以做到$O(n\log n)$。而且，这要甚至只需要用树状数组就可以了。
+
+[bzoj4372](https://lydsy.com/JudgeOnline/problem.php?id=4372)
+
+
 
 ## $\color{blue}\text{The second month}$
 
