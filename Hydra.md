@@ -68,11 +68,15 @@ about me:
 
 于是我用$\text{Splay}$维护，空间复杂度$O(n\log n)$，时间$O(n\log ^2 n)$。但是可能是因为代码写丑了，死活过不去
 
-但是！在我回教室的路上，我突然想到，每个线段树的值域只需要开到**距分治中心最远点的深度**就可以了，空间其实可以做到$O(n\log n)$。而且，这要甚至只需要用树状数组就可以了。
+但是！在我回教室的路上，我突然想到，每个线段树的值域只需要开到**距分治中心最远点的深度**就可以了，空间其实可以做到$O(n\log n)$。而且，这样甚至只需要用树状数组维护就可以了。
 
 [bzoj4372](https://lydsy.com/JudgeOnline/problem.php?id=4372)
 
+[洛谷P1501](https://www.luogu.com.cn/problem/P1501)
 
+[洛谷P3203](https://www.luogu.com.cn/problem/P3203)
+
+[洛谷P3950](https://www.luogu.com.cn/problem/P3950),[洛谷P2147](https://www.luogu.com.cn/problem/P2147)
 
 ## $\color{blue}\text{The second month}$
 
